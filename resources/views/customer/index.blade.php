@@ -1,3 +1,8 @@
+@extends('Layout.master')
+
+@section('content')
+
+
 <h1>Customers <a href="{{route('customer.create') }}" class="btn btn-primary pull-right btn-sn">Add New Customer</a></h1>
 <div class="table">
     <table class="table table-bordered table-striped table-hover">
